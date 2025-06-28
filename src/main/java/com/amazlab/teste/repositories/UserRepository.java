@@ -1,0 +1,9 @@
+package com.amazlab.teste.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.amazlab.teste.entities.User;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+
+}
